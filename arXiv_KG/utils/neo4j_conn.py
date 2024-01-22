@@ -5,13 +5,6 @@ import neo4j
 from neo4j.exceptions import CypherSyntaxError
 import pandas as pd
 
-# Import local modules
-#from helpers.utilities import *
-
-# Logger import and configuration
-#from helpers.logger import logger #, configure
-#configure('graph_connector_log.txt')
-
 class Neo4jGraph:
     """Neo4j wrapper for graph operations."""
 
